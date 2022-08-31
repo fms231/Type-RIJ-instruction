@@ -1,0 +1,36 @@
+Running: D:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/zuchengyuanli/rij/test_isim_beh.exe -prj D:/zuchengyuanli/rij/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/zuchengyuanli/rij/ipcore_dir/RAM_B.v" into library work
+Analyzing Verilog file "D:/zuchengyuanli/rij/ipcore_dir/Inst_ROM.v" into library work
+Analyzing Verilog file "D:/zuchengyuanli/rij/top.v" into library work
+WARNING:HDLCompiler:751 - "D:/zuchengyuanli/rij/top.v" Line 150: Redeclaration of ansi port F is not allowed
+WARNING:HDLCompiler:751 - "D:/zuchengyuanli/rij/top.v" Line 155: Redeclaration of ansi port PC is not allowed
+WARNING:HDLCompiler:751 - "D:/zuchengyuanli/rij/top.v" Line 179: Redeclaration of ansi port PC is not allowed
+Analyzing Verilog file "D:/zuchengyuanli/rij/test.v" into library work
+Analyzing Verilog file "D:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/zuchengyuanli/rij/top.v" Line 163: Size mismatch in connection of port <W_Addr>. Formal port size is 5-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module Inst_ROM
+Compiling module pc
+Compiling module OP_decoding
+Compiling module Register_file
+Compiling module ALU
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module RAM_B
+Compiling module R_I_J
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 15 Verilog Units
+Built simulation executable D:/zuchengyuanli/rij/test_isim_beh.exe
+Fuse Memory Usage: 35584 KB
+Fuse CPU Usage: 562 ms
